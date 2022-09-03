@@ -4,7 +4,9 @@ const Client = new Discord.Client();
 var prefix = "sb/"
 const {badwords} = require("./databadword.json")
 Client.login("Your token");
-
+# security policy 
+# google policy 
+# microsoft security 
 Client.on('ready',()=>{
     console.log("Bot T-Rex Security  is online");
     Client.user.setActivity('Menjaga DINOTROSTORE', {type: 'WATCHING'});
@@ -13,7 +15,7 @@ Client.on('ready',()=>{
 //badwords
 Client.on("message", async message =>{
 
-        let confirm = false
+       let confirm = false
 
         var i
         for(i = 0;i<badwords.length;i++){
